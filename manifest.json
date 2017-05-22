@@ -6,11 +6,11 @@
   "version": "1.0",
   "homepage_url": "https://github.com/nesbittj/send-to-discord.git",
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "icons/ic_send_black_24dp_2x.png"
   },
 
   "browser_action": {
-    "default_icon": "icons/border-48.png",
+    "default_icon": "icons/ic_send_black_24dp_2x.png",
     "default_title": "Send!",
     "browser_style": true
   },
