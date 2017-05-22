@@ -1,0 +1,32 @@
+{
+
+  "description": "Send current url as Message to Discord Channel",
+  "manifest_version": 2,
+  "name": "Send to Discord",
+  "version": "1.0",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/borderify",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icons/border-48.png",
+    "default_title": "Send!",
+    "browser_style": true
+  },
+
+  "options_ui": {
+    "page": "options/options.html"
+  },
+
+  "permissions": [
+    "storage",
+    "https://discordapp.com/api/webhooks/*",
+    "activeTab"
+  ],
+
+  "background": {
+    "scripts": ["send_to_discord.js"]
+  }
+
+}
