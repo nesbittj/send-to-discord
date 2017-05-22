@@ -27,6 +27,12 @@
 
   "background": {
     "scripts": ["send_to_discord.js"]
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "send_to_discord@example.com"
+    }
   }
 
 }
